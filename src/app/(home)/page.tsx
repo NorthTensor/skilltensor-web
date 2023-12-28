@@ -6,7 +6,7 @@ export default function Web() {
   return (
     <div>
       <Header />
-      <div className="px-4">
+      <div className="">
         <SubjectsSection />
       </div>
     </div>
