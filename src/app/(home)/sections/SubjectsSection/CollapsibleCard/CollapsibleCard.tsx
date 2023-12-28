@@ -12,7 +12,7 @@ export interface CollapsibleCardProps {
 export const CollapsibleCard = ({ icon, title, content }: CollapsibleCardProps) => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <Collapsible open={isOpen} onOpenChange={setIsOpen} className="flex flex-col rounded-lg p-4 shadow-xl">
+    <Collapsible open={isOpen} onOpenChange={setIsOpen} className="flex flex-col rounded-lg bg-white p-4 shadow-xl">
       <Collapsible.Trigger>
         <div className="flex flex-row items-center justify-between gap-2">
           <div className="flex gap-2">
@@ -26,7 +26,7 @@ export const CollapsibleCard = ({ icon, title, content }: CollapsibleCardProps) 
           )}
         </div>
       </Collapsible.Trigger>
-      <Collapsible.Content>{content}</Collapsible.Content>
+      <Collapsible.Content className="mt-6">{content}</Collapsible.Content>
     </Collapsible>
   )
 }
