@@ -1,7 +1,7 @@
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline"
 import { Button } from "src/components"
 import DashboardImage from "../../../../assets/images/Dashboard1.png"
-import Image, { StaticImageData } from "next/image"
+import Image from "next/image"
 
 export const SignupSection = ({}) => {
   return (

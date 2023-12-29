@@ -1,10 +1,10 @@
 import Image from "next/image"
+import { CheckCircleIcon } from "@heroicons/react/24/outline"
 import Image1 from "../../../../assets/images/ImageContainer.png"
 import Image2 from "../../../../assets/images/ImageContainer2.png"
 import Image3 from "../../../../assets/images/ImageContainer3.png"
-import { CheckCircleIcon } from "@heroicons/react/24/outline"
 
-export const ExamplesSection = ({}) => {
+export const ExamplesSection = () => {
   return (
     <div className="bg-white py-8">
       <div className="items-left flex flex-col gap-8 px-4">

@@ -1,4 +1,3 @@
-import { LP_GRID_ITEMS } from "lp-items"
 import { FAQsData } from "src/data/FAQsSection"
 import { QuestionCard } from "./QuestionCard/QuestionCard"
 
