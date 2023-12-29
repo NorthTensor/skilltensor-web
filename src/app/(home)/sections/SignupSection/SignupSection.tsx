@@ -7,7 +7,7 @@ export const SignupSection = ({}) => {
   return (
     <div className="flex flex-col bg-[#E5EEFF] pt-8">
       <div className="flex flex-col gap-8 px-4">
-        <h1 className="font-urbanist text-center text-[52px] font-bold leading-[56px] -tracking-[3%] text-blue-600">
+        <h1 className="font-urbanist text-center text-[48px] font-medium leading-[56px] -tracking-[3%] text-blue-600">
           Sign up for SkillTensor, your always-available tutor
         </h1>
         <h3 className="font-roboto text-center text-xl font-normal leading-8 -tracking-[1%] text-gray-400">

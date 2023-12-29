@@ -1,7 +1,6 @@
 "use client"
 import { Header } from "../../components"
-import { SubjectsSection, FAQsSection } from "./sections"
-import SignupSection from "./sections/SignupSection"
+import { SubjectsSection, FAQsSection, ExamplesSection, SignupSection } from "./sections"
 
 export default function Web() {
   return (
@@ -9,6 +8,7 @@ export default function Web() {
       <Header />
       <div className="">
         <SubjectsSection />
+        <ExamplesSection />
         <SignupSection />
         <FAQsSection />
       </div>
